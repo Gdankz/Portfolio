@@ -1,5 +1,6 @@
 import { ThemeToggle } from "../components/ThemeToggle"
 import { StarBackground } from "../components/StarBackground"
+import { AuroraBackground } from "../components/AuroraBackground"
 import { Navbar } from "../components/Navbar"
 import { HeroSection } from "../components/HeroSection"
 import { AboutMe } from "../components/AboutMe"
@@ -19,6 +20,7 @@ export const Home = () => {
 
             {/* Background Effects*/}
             <StarBackground />
+            <AuroraBackground />
 
 
             {/* Navbar */}
