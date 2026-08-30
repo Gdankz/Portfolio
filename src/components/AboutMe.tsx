@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react"
+import { Code, User } from "lucide-react"
 
 
 export const AboutMe = () => {
@@ -25,11 +25,14 @@ export const AboutMe = () => {
                         driven by the goal of building robust, end-to-end intelligent systems.
                     </p>
 
-                    <div className="flex felx-col sm:flex-row gap-4 pt-4 justify-center">
+                    <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
                             Get In Touch
                         </a>
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                        <a href="https://drive.google.com/file/d/1v1khSAosJNf7UScnJxxHU7R623u9CeBf/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                             Download CV
                         </a>
                     </div>

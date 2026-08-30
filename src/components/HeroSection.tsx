@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react"
+import hero from "../assets/hero.png"
 
 
 export const HeroSection = () => {
@@ -7,12 +8,19 @@ export const HeroSection = () => {
     >
         <div className="container max-w-4xl mx-auto text-center z-10">
             <div className="space-y-6">
+                <div className="mb-2 opacity-0 animate-fade-in-delay-2">
+                    <img
+                        src={hero}
+                        alt="Gabriel Bayu"
+                        className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-primary/30 shadow-[0_0_30px_#8b5cf640] animate-float"
+                    />
+                </div>
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                     <span className="opacity-0 animate-fade-in"> Hi, I'm </span>
                     <span className="text-primary opacity-0 animate-fade-in-delay-1"> Gabriel </span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-1"> Bayu </span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     Innovative engineer specializing in the convergence of hardware and software, with deep expertise in Raspberry Pi, Arduino, Machine Learning, and Backend development. I focus on architecting end-to-end intelligent solutions, seamlessly integrating smart device prototyping with robust,
                     scalable server-side infrastructures to build high-performance, data-driven ecosystems.
                 </p>

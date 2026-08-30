@@ -4,6 +4,10 @@ import { Navbar } from "../components/Navbar"
 import { HeroSection } from "../components/HeroSection"
 import { AboutMe } from "../components/AboutMe"
 import { Skills } from "../components/Skills"
+import { Projects } from "../components/Projects"
+import { Contact } from "../components/Contact"
+import { Footer } from "../components/Footer"
+import { Reveal } from "../components/Reveal"
 
 export const Home = () => {
     return (
@@ -24,11 +28,24 @@ export const Home = () => {
             {/* Main Content */}
             <main>
                 <HeroSection />
-                <AboutMe />
-                <Skills />
+                <Reveal>
+                    <AboutMe />
+                </Reveal>
+                <Reveal>
+                    <Skills />
+                </Reveal>
+                <Reveal>
+                    <Projects />
+                </Reveal>
+                <Reveal>
+                    <Contact />
+                </Reveal>
             </main>
 
             {/* Footer */}
+            <Reveal>
+                <Footer />
+            </Reveal>
 
 
         </div>
