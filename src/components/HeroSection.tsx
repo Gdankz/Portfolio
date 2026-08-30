@@ -20,9 +20,9 @@ export const HeroSection = () => {
                     <span className="text-primary opacity-0 animate-fade-in-delay-1"> Gabriel </span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-1"> Bayu </span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Innovative engineer specializing in the convergence of hardware and software, with deep expertise in Raspberry Pi, Arduino, Machine Learning, and Backend development. I focus on architecting end-to-end intelligent solutions, seamlessly integrating smart device prototyping with robust,
-                    scalable server-side infrastructures to build high-performance, data-driven ecosystems.
+                <p className="text-xl md:text-3xl font-semibold tracking-wide opacity-0 animate-fade-in-delay-2">
+                    <span className="text-primary">IoT Developer</span>
+                    <span className="text-muted-foreground">, Fullstack/Backend Developer</span>
                 </p>
                 <div className=" pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">
